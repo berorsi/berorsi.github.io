@@ -1,0 +1,89 @@
+html {
+    background-color: rgb(231, 214, 191);
+    color: black;
+}
+h1 {
+    color: rgb(216, 58, 92);
+    font-size: 24px;
+    font-family: cursive;
+    text-align: center;
+}
+h2 {
+    color: rgb(177, 37, 95);
+}
+h3 {
+    color: rgb(197, 70, 112);
+    padding-left: 15px;
+}
+h4 {
+    color: rgb(175, 31, 79);
+}
+body {
+    font-family: sans-serif;
+    font-family: cursive;
+}
+.hello {
+    text-align: center;
+}
+.bold {
+    font-weight: bold;
+    font-size: 17px;
+}
+.motivum {
+    height: 50px;
+    width: 107px;
+    padding-top: 10px;
+}
+.eating {
+    height: 200px;
+    width: 400px;
+    margin: 6px;
+}
+.login-div {
+    padding: 15px;
+    border: solid 1px #c0c0c0c0;
+    box-shadow: 0 0 2px #777000;
+    display: inline-block;
+}
+.login-div input {
+    display: block;
+    margin-bottom: 7px;
+}
+.form-group {
+    color: green;
+}
+.login-div button:hover {
+    box-shadow: 1px 1px 2px #c5c5e6;
+}
+.login-div input:focus {
+    box-shadow: 1px 1px 2px #c5c5e6;
+}
+.row1 {
+    background-color: rgb(223, 177, 118);
+}
+table {
+    width: 100%;
+}
+.table {
+    text-align: left;
+    border: dashed;
+    border-width: thin;
+    display: inline-block;
+    background-color: rgb(197, 173, 146);
+}
+.opening {
+    text-align: center;
+    border: dashed;
+    border-width: thin;
+    background-color: rgb(214, 191, 165);
+    color: rgb(201, 111, 111);
+}
+.opening2 {
+    text-align: center;
+}
+.opening2:nth-child(2) {
+    background-color: rgb(197, 173, 146);
+}
+.container{
+    font-style: bold;
+}

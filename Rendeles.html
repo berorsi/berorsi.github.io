@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a href="Home.html">Főoldal</a>
+    <a href="Akciok.html">Akciók</a>
+    <a href="Etlap.html">Étlap</a>
+    <a href="Bejelentkezes.html">Bejelentkezés</a>
+    <a href="Rendeles.html">Rendelés</a>
+    <a href="Elerhetoseg.html">Elérhetőség</a>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Személyes Adatok</legend>
+                <div>
+                    <label for="name">Név</label>
+                    <input id="name" name="name" type="text">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email">
+                </div>
+                <div>
+                    <label for="phoneNumber">Telefonszám</label>
+                    <input id="phoneNumber" name="phoneNumber" type="text">
+                </div>
+                <div>
+                    <label for="address">Cím</label>
+                    <input id="address" name="address" type="text">
+                </div>
+                <div>
+                    <label for="postCode">írányítószám</label>
+                    <input id="postCode" name="postCode" type="text">
+                </div>
+                <div>
+                    <label for="comment">Megjegyzés</label>
+                    <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Termék Adatok</legend>
+                <div class="extraFeltet">
+                    <span><strong>Extra feltétek</strong></span>
+                    <div>
+                        <input id="nothing" name="nothing" type="checkbox" value="0">
+                        <label for="nothing">Nem kérek</label>
+                    </div>
+                    <div>
+                        <input id="extra-cheese" name="extra-cheese" type="checkbox" value="150">
+                        <label for="extra-cheese">Extra sajt</label>
+                        <label for="extra-cheese">- 150 Ft</label>
+                    </div>
+                    <div>
+                        <input id="extra-meat" name="extra-meat" type="checkbox" value="300">
+                        <label for="extra-meat">Extra hús</label>
+                        <label for="extra-meat">- 300 Ft</label>
+                    </div>
+                    <div>
+                        <input id="tomato" name="tomato" type="checkbox" value="50">
+                        <label for="tomato">Paracdicsom</label>
+                        <label for="tomato">- 50 Ft</label>
+                    </div>
+                    <div>
+                        <input id="onion" name="onion" type="checkbox" value="50">
+                        <label for="onion">Hagyma</label>
+                        <label for="onion">- 50 Ft</label>
+                    </div>
+                    <div>
+                        <input id="bacon" name="bacon" type="checkbox" value="200">
+                        <label for="bacon">Bacon</label>
+                        <label for="bacon">- 200 Ft</label>
+                    </div>
+                    <div>
+                        <label for="sauce"><strong>Szószók</strong></label>
+                        <br> A szószok egységára 40 Ft.
+                        <br> <select name="sauce" id="sauce">
+                            <option value="0">Semmi</option>
+                            <option value="40">Ketchup</option>
+                            <option value="40">Majonéz</option>
+                            <option value="40">Mustár</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="quantity"><strong>Mennyiség</strong></label>
+                        <br><input id="quantity" name="quantity" type="number" min="1" max="10">
+                    </div>
+                </div>
+            </fieldset>
+            <div>
+                <input type="button" value="Rendelés leadása"> 
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
